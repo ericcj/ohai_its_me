@@ -1,3 +1,9 @@
+# for missing encoding in ancient httpauth gem (transitive dependency)
+if RUBY_VERSION =~ /1.9/
+  Encoding.default_external = Encoding::UTF_8
+  Encoding.default_internal = Encoding::UTF_8
+end
+
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.4'
@@ -21,7 +27,7 @@ gem 'omniauth-foursquare'
 gem 'omniauth-tumblr'
 gem 'omniauth-lastfm'
 
-gem 'handlebars_wax', :git => 'git@github.com:goggin13/handlebars_wax.git' 
+gem 'handlebars_wax', :git => 'git@github.com:goggin13/handlebars_wax.git'
 gem 'handlebars_assets', :git => 'git@github.com:goggin13/handlebars_assets.git'
 
 # Gems used only for assets and not required
