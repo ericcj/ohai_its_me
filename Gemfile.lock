@@ -6,8 +6,9 @@ GIT
       omniauth-oauth2 (~> 1.0.0)
 
 GIT
-  remote: git@github.com:becarella/let_me_in.git
-  revision: 53eb88fccbdadbf37fdf8d66d0c349edadb4b739
+  remote: git://github.com/ericcj/let_me_in.git
+  revision: e4aa394d935dceb0e4ed4b2ea3f22efecd2b9eb4
+  branch: forked_stuff
   specs:
     let_me_in (0.0.1)
       bcrypt-ruby (~> 3.0.0)
@@ -15,8 +16,9 @@ GIT
       rails
 
 GIT
-  remote: git@github.com:becarella/navel_gazer.git
-  revision: f81f0eb9a21d8126784573248776fc4225b143f1
+  remote: git://github.com/ericcj/navel_gazer.git
+  revision: 40710cab250d7ddffb5e212cc4b7a432d94526b4
+  branch: forked_stuff
   specs:
     navel_gazer (0.0.1)
       embedly
@@ -99,6 +101,7 @@ GEM
       multi_json (~> 1.0)
     faraday (0.8.0)
       multipart-post (~> 1.1)
+    ffi (1.1.5)
     hashie (1.2.0)
     hbs (0.1.2)
       therubyracer (~> 0.9.4)
@@ -198,8 +201,9 @@ GEM
       polyglot (>= 0.3.1)
     turn (0.8.2)
       ansi (>= 1.2.2)
-    typhoeus (0.3.3)
-      mime-types
+    typhoeus (0.4.2)
+      ffi (~> 1.0)
+      mime-types (~> 1.18)
     tzinfo (0.3.33)
     uglifier (1.2.4)
       execjs (>= 0.3.0)

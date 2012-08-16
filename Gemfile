@@ -11,7 +11,7 @@ gem 'rails', '3.1.4'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+gem 'mysql2'
 
 gem "render_or_redirect", :git => 'git@github.com:becarella/render_or_redirect.git'
 gem 'let_me_in', :git => 'git://github.com/ericcj/let_me_in.git', :branch => 'forked_stuff'
